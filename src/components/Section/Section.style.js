@@ -6,7 +6,7 @@ export const Container = styled.section`
   text-align: center;
 `;
 export const Title = styled.h2`
-  font-size: 34px;
-  margin-bottom: 30px;
-  color: #034f84;
+  font-size: 40px;
+  margin-bottom: 35px;
+  color: rgb(17, 106, 12);
 `;

@@ -5,17 +5,18 @@ export const Label = styled.label`
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 `;
 export const Input = styled.input`
-  width: 200px;
-  height: 22px;
+  width: 300px;
+  height: 30px;
+  border-radius: 35px;
   outline: transparent;
   padding: 0 8px;
-  border: 1px solid black;
+  border: 2px solid black;
   &:hover,
   &:focus {
-    border: 2px solid #92a8d1;
+    border: 3px solid green;
   }
 `;
